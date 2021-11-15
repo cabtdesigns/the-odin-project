@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #header-container{
@@ -13,10 +14,10 @@ body{
 
 .navigation{
     display: flex;
-    flex:1 1 800px;
+    flex:1 1 900px;
     gap:20px;
     padding: 20px;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .logo{
@@ -26,3 +27,38 @@ body{
 .header-links{
     
 }
+
+#landing-top-container{
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    justify-content: center;
+}
+
+.lt-width{
+    display: flex;
+    flex:1 1 900px;
+    gap:20px;
+    padding: 20px;
+    max-width: 900px;
+}
+
+.hero-title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin:0;
+}
+
+.ltSignUp {
+    background-color: #3882f6; /* blue */
+    border: none;
+    color: white;
+    padding: 10px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
